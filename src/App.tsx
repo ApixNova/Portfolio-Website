@@ -52,29 +52,33 @@ function App() {
         </ul>
       </div>
       <div id="hi">
-        <div id="hi-pic">
-          <h1 id="intro">
-            Hi, I'm <i id="first-i" className="fa-solid fa-code"></i>
-            <em>
-              <a
-                href="https://www.linkedin.com/in/anas-laangry-965220278/"
-                target="_blank"
-              >
-                Anas
-              </a>
-            </em>
-            <i id="second-i" className="fa-solid fa-code"></i>
-          </h1>
-          <img id="profile-pic" src={ProfilePic}></img>
-        </div>
         <div id="hi-text">
-          <p>
-            I create websites with <em>HTML</em>, <em>CSS</em>, and{" "}
-            <em>Javascript</em>
-          </p>
-          <p>
-            (and <em>more</em>!)
-          </p>
+          <div id="hi-text1">
+            <h1 id="intro">
+              Hi, I'm <i id="first-i" className="fa-solid fa-code"></i>
+              <em>
+                <a
+                  href="https://www.linkedin.com/in/anas-laangry-965220278/"
+                  target="_blank"
+                >
+                  Anas
+                </a>
+              </em>
+              <i id="second-i" className="fa-solid fa-code"></i>
+            </h1>
+          </div>
+          <div id="hi-text2">
+            <p>
+              I create websites with <em>HTML</em>, <em>CSS</em>, and{" "}
+              <em>Javascript</em>
+            </p>
+            <p>
+              (and <em>more</em>!)
+            </p>
+          </div>
+        </div>
+        <div id="hi-pic">
+          <img id="profile-pic" src={ProfilePic}></img>
         </div>
       </div>
       <div id="work">
