@@ -1,5 +1,6 @@
-import ChoroMap from "../public/Map.png";
-import MusicApp from "../public/MusicApp.png";
+import choroMap from "../public/Map.png";
+import musicApp from "../public/MusicApp.png";
+import starsAbove from "../public/StarsAbove.png";
 
 export default function Work() {
   return (
@@ -15,7 +16,7 @@ export default function Work() {
           </p>
         </div>
         <a href="https://apix-music.glitch.me" target="_blank">
-          <img className="work-image" id="music-app-img" src={MusicApp}></img>
+          <img className="work-image" id="music-app-img" src={musicApp}></img>
         </a>
       </div>
       <div className="division"></div>
@@ -34,7 +35,37 @@ export default function Work() {
           <img
             className="work-image"
             id="choropleth-map-img"
-            src={ChoroMap}
+            src={choroMap}
+          ></img>
+        </a>
+      </div>
+      <div className="division"></div>
+      <div className="work-flex" id="stars-above">
+        <div>
+          <h2>StarsAbove.me</h2>
+          <p>
+            <a
+              href="https://starsabove.me/"
+              target="_blank"
+              style={{
+                display: "inline-block",
+                color: "#0b0b0d",
+              }}
+            >
+              StarsAbove.me
+            </a>{" "}
+            is a personal project about the Solar System and space.
+            <br />
+            It uses WordPress and the Divi builder to present an illustrated
+            documentation, a gallery and a playable simulation of the Solar
+            System and the galaxy.
+          </p>
+        </div>
+        <a href="https://starsabove.me/" target="_blank">
+          <img
+            className="work-image"
+            id="stars-above-img"
+            src={starsAbove}
           ></img>
         </a>
       </div>
