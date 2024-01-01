@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 #root {
   width: 100%;
 }
@@ -6,6 +10,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 #hi a {
   background: linear-gradient(180deg, #f13b3b 60%, rgb(202, 185, 185));
@@ -18,15 +23,14 @@
   font-style: normal;
 }
 #intro {
-  padding-top: 35vh;
+  /* padding-top: 35vh; */
   width: fit-content;
-  margin: 0;
 }
 #profile-pic {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  margin-top: 27vh;
+  /* margin-top: 27vh; */
   margin-left: 30px;
   border: 2px solid black;
 }
@@ -67,6 +71,8 @@
 }
 #work h1 {
   margin: auto;
+  /* font-size: 30px; */
+  font-family: "Archivo Black", sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
   max-width: 80%;
@@ -80,12 +86,7 @@
   max-width: 600px;
   margin: auto;
 }
-
-#choropleth-map-img {
-  width: 85%;
-}
-
-#stars-above-img {
+.full {
   width: 90%;
 }
 
@@ -96,7 +97,7 @@
   text-align: justify;
 }
 #work h2 {
-  font-size: 2.7em;
+  font-size: 2.5em;
   font-family: "Archivo Black", sans-serif;
   margin-left: 3px;
   background: linear-gradient(180deg, rgb(96, 73, 226) 60%, rgb(216, 132, 174));
@@ -123,16 +124,17 @@
 #navbar {
   width: 100%;
   height: 10vh;
-  position: sticky;
+  position: fixed;
   top: 0;
   background: linear-gradient(180deg, rgb(238, 208, 217), transparent);
 }
 
 ul {
   list-style: none;
-  margin: auto;
+  margin: 0;
   display: flex;
   justify-content: center;
+  padding: inherit;
 }
 li {
   display: inline-block;
@@ -146,13 +148,14 @@ li a {
   vertical-align: middle;
   color: rgb(34, 38, 41);
   position: relative;
+  user-select: none;
 }
 .nav-highlight {
   width: 0%;
   height: 50px;
   position: absolute;
   right: 0;
-  top: 15%;
+  transform: translate(0, -50px);
   background: rgba(228, 7, 7, 0.37);
   z-index: -1;
   transition-duration: 300ms;
@@ -199,9 +202,6 @@ li a {
   #profile-pic {
     margin: auto;
   }
-  #intro {
-    padding: 0;
-  }
   #hi-text2 {
     align-items: center;
   }
@@ -234,9 +234,6 @@ li a {
 }
 @media screen and (max-width: 520px) {
   #intro {
-    /* margin: auto auto 20px auto; */
-    padding-left: 0;
-    /* padding-top: 20vh; */
     font-size: 2em;
   }
   #first-i {
@@ -255,6 +252,7 @@ li a {
   #navbar li {
     font-size: 2em;
   }
+
   .social {
     margin: 3vw;
   }

@@ -69,11 +69,7 @@ function App() {
           </div>
           <div id="hi-text2">
             <p>
-              I create websites with <em>HTML</em>, <em>CSS</em>, and{" "}
-              <em>Javascript</em>
-            </p>
-            <p>
-              (and <em>more</em>!)
+              Full Stack <em>React</em> developer
             </p>
           </div>
         </div>
@@ -82,7 +78,7 @@ function App() {
         </div>
       </div>
       <div id="work">
-        <h1>Some of my work:</h1>
+        <h1>Some of my work</h1>
         <Work />
       </div>
       <div id="contact">
