@@ -1,6 +1,6 @@
-import cosmo from "../public/Cosmo.png";
-import musicApp from "../public/MusicApp.png";
-import starsAbove from "../public/StarsAbove.png";
+import cosmo from "./assets/Cosmo.png";
+import musicApp from "./assets/MusicApp.png";
+import starsAbove from "./assets/StarsAbove.png";
 
 export default function Work() {
   return (

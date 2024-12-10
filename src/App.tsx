@@ -1,6 +1,6 @@
 import "./App.css";
 import Work from "./Work.tsx";
-import ProfilePic from "../public/ProfilePic.jpg";
+import ProfilePic from "./assets/ProfilePic.jpg";
 import { useState } from "react";
 
 function App() {
