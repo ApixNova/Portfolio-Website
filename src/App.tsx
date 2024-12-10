@@ -11,7 +11,7 @@ function App() {
         <div onClick={() => setShow(false)} className="social">
           <a href="#contact" className="mail">
             <i className="fa-solid fa-envelope"></i>
-            <p>laangryanas@gmail.com</p>
+            <p>lastsupernovae@gmail.com</p>
           </a>
         </div>
       );
