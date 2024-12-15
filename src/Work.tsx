@@ -11,7 +11,7 @@ export default function Work() {
           <h2>Talos</h2>
           <p>
             Talos is a mood tracker and a diary app. It is available as a
-            website and an android app built using React Native
+            website and an Android app built using React Native
           </p>
           <p>
             The app is offline-first, allowing optional use of the Supabase
